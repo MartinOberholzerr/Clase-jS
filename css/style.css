@@ -131,15 +131,16 @@
 }
 
 #muestra{
-    padding: 40px;
     color: var(--dark);
     margin: 10px;
-    background-color: var(--white);
+    background-color: var(--c);
     left: 30%;
     right: 30%;
-    box-shadow: 1px 1px 1px 1px var(--gray);
     border-radius: 5px;
+}
 
+#muestra p{
+    margin: 10px;
 }
 
 .estyleD{
