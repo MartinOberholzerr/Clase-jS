@@ -83,3 +83,15 @@
     left: 10%;
     right: 10%;
 }
+
+.button{
+    left: 10%;
+    right: 10%;
+    border: none;
+    background-color: var(--cyan);
+    padding: 15px;
+    border-radius: 5px;
+    color: var(--c);
+    cursor: pointer;
+    font-weight: 700;
+}
