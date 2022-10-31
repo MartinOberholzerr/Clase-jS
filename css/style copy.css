@@ -56,3 +56,9 @@
     background-color: var(--b);
     border-radius: 10px 10px 0 0;
 }
+
+.imagenn{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
