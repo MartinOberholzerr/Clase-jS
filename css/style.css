@@ -68,10 +68,13 @@
     right: 10%;
     font-weight:700;
 }
-.text{
+
+.content{
+    padding-top: 50px;
+    padding-bottom: 300px;
+    text-align: center;
     left: 10%;
     right: 10%;
-    font-weight:700;
 }
 
 .input{
