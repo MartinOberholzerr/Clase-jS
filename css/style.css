@@ -95,3 +95,47 @@
     cursor: pointer;
     font-weight: 700;
 }
+
+.button:hover{
+    background-color: var(--font-show);
+}
+
+.textInput{
+    border-radius: 5px;
+    border-color:var(--gray);
+    background-color: var(--light);
+}
+
+.coment{
+    padding: 10px;
+    background-color: var(--b);
+    border-color: var(--secondary);
+}
+
+#muestra{
+    padding: 40px;
+    color: var(--dark);
+    margin: 10px;
+    background-color: var(--white);
+    left: 30%;
+    right: 30%;
+    animation-name: g;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    box-shadow: 1px 1px 1px 1px var(--gray);
+    border-radius: 5px;
+
+}
+@keyframes g{
+    100%{
+        transform: translateX(50%);
+    }
+    0%{
+        transform: translateX(-50%);
+    }
+    
+}
+.estyleD{
+    margin: 10px;
+}
