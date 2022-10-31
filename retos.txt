@@ -1,0 +1,2 @@
+1.- Cuando se cree una etiqueta se mueva todo el body
+2.- Generar un formulario que cuando se complete el input1 y el input2 se vaya volando el input3.
