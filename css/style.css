@@ -37,7 +37,7 @@
     font-family: 'Times New Roman', Times, serif;
   }
 
-body{
+#body-move{
     animation-name: g;
     animation-direction: alternate;
     animation-iteration-count: infinite;
