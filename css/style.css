@@ -38,16 +38,35 @@
   }
 
   .body-move{
+    animation-name: g;
     animation-duration: 1s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
   }
   @keyframes g{
-    100%{
-        transform: translateX(70%);
-    }
     0%{
-        transform: translateX(-70%);
+        transform: translateX(80%);
+    }
+    10%{
+        transform: translateX(-80%);
+    }
+    20%{
+        transform: translateX(80%);
+    }
+    30%{
+        transform: translateX(-80%);
+    }
+    40%{
+        transform: translateX(80%);
+    }
+    50%{
+        transform: translateX(-80%);
+    }
+    60%{
+        transform: translateX(80%);
+    }
+    70%{
+        transform: translateX(-80%);
     }
     
 }
