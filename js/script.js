@@ -6,3 +6,8 @@ let boton = document.getElementById('#boton');
     function inicio(){
         document.getElementById("datos").addEventListener('click',usuario);
     }
+
+    function usuario(){
+        let body = document.activeElement.id;
+        body.classList.remove(`active`);
+    }
