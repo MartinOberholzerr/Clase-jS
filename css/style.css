@@ -38,16 +38,16 @@
   }
 
   .body-move{
-    animation-name: g;
+    animation-duration: 1s;
     animation-direction: alternate;
-    animation-duration: 2s;
+    animation-iteration-count: infinite;
   }
   @keyframes g{
     100%{
-        transform: translateX(10%);
+        transform: translateX(70%);
     }
     0%{
-        transform: translateX(-10%);
+        transform: translateX(-70%);
     }
     
 }
