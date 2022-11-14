@@ -40,7 +40,7 @@
   .body-move{
     animation-name: g;
     animation-direction: alternate;
-    animation-duration: 4s;
+    animation-duration: 2s;
   }
   @keyframes g{
     100%{
