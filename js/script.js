@@ -1,18 +1,23 @@
-var datos =document.getElementById('datos');
-var contrasena =document.getElementById('contrasena');
-var boton =document.getElementById('boton');
+var input =document.getElementById('input')
+var input2 =document.getElementById('input2')
+var button =document.getElementById('button')
     cont=0
-datos.addEventListener('datos', stop);
-contrasena.addEventListener('datos', stop);
+input.addEventListener('input', stop)//datos en el input activa el efecto
+input2.addEventListener('input2', stop)
     function stop(){
         if(cont==0){
-            boton.classList.remove('body-move');//remueve la clase
+            button.classList.remove('body-move')//remueve la clase
             cont++
         }
         else{
-            boton.classList.add('body-move');//añade la clase 
+            
+            button.classList.add('body-move')//añade la clase 
             cont--
         }
     }
 
-    console.log(body-move);
+    button.onclick = () =>{
+        let body = document.querySelector(`body`)
+        body.classList.add(`body-move`);
+    };
+    
